@@ -9,12 +9,12 @@ header {
     background-color: #85c4ff;
     padding: 40px;
 }
-header nav {
+/* header nav {
     
 }
 header nav a {
 
-}
+} */
 section.section-element {
     margin: 0;
     padding: 40px;
@@ -23,33 +23,71 @@ section.box-model-section {
     background-color: #9EF490;
 }
 .interior {
-    border: 10px solid #000;
     margin: 0 auto;
     max-width: 1200px;
     padding: 40px;
     width: 100%;
 }
-.interior h1 {
+.box-model-interior {
+    background-color: #9EF490;
+    border: 10px solid #187908;
+    min-height: 600px;
+}
+.box-model-interior h1 {
     color: #000;
     font-size: 64px;
     font-weight: 700;
     line-height: 1.5;
     margin-bottom: 45px;
 }
-.interior h2 {
+.box-model-interior h2 {
     color: #000;
     font-size: 32px;
     font-weight: 400;
     line-height: 1;
+    margin: 10px;
 }
-.interior p {
+.box-model-interior p {
     color: #000;
     font-size: 32px;
     font-weight: 700;
     line-height: 1;
+    margin: 10px;
 }
-.box-model-interior {
-    background-color: #9EF490;
-    border: 10px solid #187908;
-    min-height: 600px;
+section.heading-section {
+    background-color: #F1CAF0;
+}
+.heading-section-interior h1 {
+    color: #6C0468;
+    font-size: 64px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+}
+.heading-section-interior h2 {
+    color: #6C0468;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 74px;
+    padding: 10px 0px;
+}
+.heading-section-interior h3 {
+    color: #6C0468;
+    font-size: 64px;
+    font-weight: 700;
+    /* line-height: 46px; */
+    padding-bottom: 10px;
+}
+.heading-section-interior h4 {
+    color: #6C0468;
+    font-size: 36px;
+    font-weight: 700;
+    /* line-height: 41px; */
+    padding: 30px 0px 15px 0px;
+}
+.heading-section-interior p {
+    color: #3A0F39;
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 23px; */
+    /* padding-bottom: 30px; */
 }
