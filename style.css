@@ -159,11 +159,14 @@ section.heading-section {
     border: 10px solid #0E3F9E; 
     background-color: #85C4FF;
     height: 600px;
+    overflow: hidden;
     position: relative;
 }
 .positioning-section h1 {
     font-size: 64px;
     font-weight: 700;
+    position: relative;
+    z-index: 1;
 }
 .circle {
     border-radius: 50%;
