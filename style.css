@@ -167,8 +167,8 @@ section.heading-section {
     background-color: #CAD7F1;
 }
 .positioning-section .interior {
-    border: 10px solid #0E3F9E; 
     background-color: #85C4FF;
+    border: 10px solid #0E3F9E; 
     height: 600px;
     overflow: hidden;
     position: relative;
@@ -207,8 +207,8 @@ section.heading-section {
     padding-top: 0;
 }
 .counter-button-wrapper {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 .counter-button-wrapper p {
     font-size: 64px;
