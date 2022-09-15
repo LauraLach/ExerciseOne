@@ -9,12 +9,27 @@ header {
     background-color: #85c4ff;
     padding: 40px;
 }
-/* header nav {
-    
+header nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
 header nav a {
-
-} */
+    color: black;
+    font-weight: 700;
+    margin: 0 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+header nav a:last-of-type {
+    margin-right: 0;
+}
+header nav a:first-of-type {
+    margin-left: 0;
+}
 section.section-element {
     margin: 0;
     padding: 40px;
@@ -61,6 +76,7 @@ section.box-model-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
 }
 .interior-flex > div {
     background-color: #ff9371;
@@ -182,6 +198,27 @@ section.heading-section {
 .circle.circle-one {
     bottom: 48px;
     left: 48px;
+}
+.simple-javascript-section {
+    background-color: #FAEFD3;
+}
+.simple-javascript-section h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.simple-javascript-section .interior {
+    color: #644904;
+    padding-top: 0;
+}
+.counter-button-wrapper {
+    display: flex;
+    align-items: center;
+}
+.counter-button-wrapper p {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0 40px 40px 0;
 }
 .footer-interior {
     align-items: center;
