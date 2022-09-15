@@ -138,7 +138,6 @@ section.heading-section {
     color: #6C0468;
     font-size: 64px;
     font-weight: 700;
-    /* line-height: 1.5; */
 }
 .heading-section-interior h2 {
     color: #6C0468;
@@ -151,22 +150,18 @@ section.heading-section {
     color: #6C0468;
     font-size: 64px;
     font-weight: 700;
-    /* line-height: 46px; */
     padding-bottom: 10px;
 }
 .heading-section-interior h4 {
     color: #6C0468;
     font-size: 36px;
     font-weight: 700;
-    /* line-height: 41px; */
     padding: 30px 0px 15px 0px;
 }
 .heading-section-interior p {
     color: #3A0F39;
     font-size: 20px;
     font-weight: 700;
-    /* line-height: 23px; */
-    /* padding-bottom: 30px; */
 }
 .positioning-section {
     background-color: #CAD7F1;
